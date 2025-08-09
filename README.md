@@ -298,6 +298,313 @@
   
     <div class="story">
      <div class="ring"> 
+    <img src="/web/cute-love-dp-pic-girl-simple.webp" alt="story">
+    </div>
+    <span>ishita</span>
+    </div>
+  
+    <div class="story">
+      <div class="ring">
+    <img src="g2.jpg" alt="story">
+    </div>
+    <span>vaidu_07</span>
+    </div>
+    
+     <div class="story">
+       <div class="ring">
+    <img src="b2.webp" alt="story">
+    </div>
+    <span>_davesh_bhai</span>
+    </div>
+  
+    <div class="story">
+    <div class="ring">
+    <img src="g3.jpg" alt="story">
+    </div>
+    <span>rishita</span>
+    </div>
+  
+    <div class="story">
+    <div class="ring">
+    <img src="g4.jpg" alt="story">
+    </div>
+    <span>itz_twinkle</span>
+    </div>
+
+    <div class="story">
+    <div class="ring">
+   <img src="b1.png" alt="story">
+   </div>
+  <span>kshitij_b</span>
+  </div>
+  </div>
+  
+          <!-- FEED -->
+
+    <div class="post">
+      <div class="post-header">
+      <img src="g1.jpg" alt="ishita profile pic" />
+      <span>ishita</span>
+    </div>
+      
+    <img src="g1.jpg" alt="frnd">
+    
+    <div class="post-icons">
+      <img src="heart.webp" alt="heart">
+      <img src="comment.webp" alt="comment">
+      <img src="share.png" alt="share">
+      <img class="s" src="save.webp" alt="save">
+    </div>
+    
+    <div class="post-info">
+    
+    <div class="likes">Liked by rishita and 120 others</div>
+    
+    <div class="caption"><span>ishita</span> enjoying the sunset 🌅</div>
+    
+    <div class="time">2 hours ago</div>
+    
+  </div>
+</div>
+    
+    <div class="post">
+      <div class="post-header">
+      <img src="g3.jpg" alt="ishita profile pic" />
+      <span>rishita</span>
+    </div>
+      
+    <img src="p1.jpg" alt="frnd">
+    
+    <div class="post-icons">
+      <img src="heart.webp" alt="heart">
+      <img src="comment.webp" alt="comment">
+      <img src="share.png" alt="share">
+      <img class="s" src="save.webp" alt="save">
+    </div>
+    
+    <div class="post-info">
+    
+    <div class="likes">Liked by ishita and 99 others</div>
+    
+    <div class="caption"><span>rishita</span> Coffee with friends ☕</div>
+    
+    <div class="time">5 hours ago</div>
+    
+  </div>
+</div>
+    
+    <div class="post">
+      <div class="post-header">
+      <img src="b1.png" alt="b1 profile pic" />
+      <span>kshitij_b</span>
+    </div>
+      
+    <img src="c1.jpg" alt="frnd">
+    
+    <div class="post-icons">
+      <img src="heart.webp" alt="heart">
+      <img src="comment.webp" alt="comment">
+      <img src="share.png" alt="share">
+      <img class="s" src="save.webp" alt="save">
+    </div>
+    
+    <div class="post-info">
+    
+    <div class="likes">Liked by ishita and 1.9M others</div>
+    
+    <div class="caption"><span>kshitij_b</span>Mirror selfie 🤳</div>
+    
+    <div class="time">5 hours ago</div>
+    
+  </div>
+</div>
+    
+  
+  <p>hello this is my Instagram page?</p>
+  
+  
+            <!-- Footer -->
+
+ <footer>
+   
+      <div class="iconf">
+    <a href="#"><img src="home.webp" alt="home"></a>
+  </div>
+  
+     <div class="iconf">
+    <a href="#"><img src="search.webp" alt="search"></a>
+  </div>
+  
+  <div class="iconf">
+  <a href="#"><img src="post.webp" alt="Reels"></a>
+   </div>
+       
+  <div class="iconf">
+  <a href="#"> <img src="reel.webp" alt="Reels"></a>
+   </div>
+   
+   <div class="user">
+  <a href="user.html"><img src="ajnan.jpg" alt="ajnan"></a>
+   </div>
+   
+ </footer>
+
+</body>
+</html>          margin-right: 10px;
+          object-fit: cover;
+        }
+        
+        .post-header span {
+          font-weight: bold;
+          font-size: 14px;
+        }
+        
+        .post-icons{
+          display: flex;
+          padding: 8px 12px;
+          gap: 10px;
+          font-size: 22px;
+          align-items: center;
+        }
+    
+    
+        .post-icons img{
+          height: 25px;
+          width: 25px;
+          object-fit:cover;
+          cursor: pointer;
+        }
+        
+        .post-icons img.s{
+          margin-left: auto;
+        }
+    
+        .post-info {
+          padding: 0 12px 12px 12px;
+        }
+        
+        .likes {
+          font-weight: bold;
+          margin-bottom: 5px;
+          font-size: 14px;
+        }
+        
+        .caption {
+          font-size: 14px;
+        }
+        
+        .caption span {
+          font-weight: bold;
+          margin-right: 5px;
+        }
+        
+        .time {
+          font-size: 10px;
+          color: gray;
+          text-transform: uppercase;
+          margin-top: 5px;
+        }
+
+        /*main */
+        p{
+          text-align: center;
+        }
+        
+        header,footer{
+          max-height: 600px;
+          margin:auto;
+        }
+        
+        media (max-width: 600px) 
+          {
+        .iconf img,.iconh img {
+          width:22px;
+          height:22px;
+          }
+          
+        .logo img{
+          width:90px;
+          }
+        }
+    
+        @media (min-width: 601px) {
+          body {
+          background: #fafafa;
+          }
+        }
+        img {
+          max-width: 100%;
+          height: auto;
+       }
+        /* footer*/
+        footer{
+          background-color:#fff ;
+          display:flex;
+          width:100%;
+          position: fixed;
+          border-top:1px solid #ddd;
+          justify-content: space-around;
+          padding: 10px 0;
+          align-items: center;
+          bottom: 0;
+          z-index: 999;
+          height: 50px;
+        }
+        
+        .iconf img{
+          width: 25px;
+          height: 25px;
+          object-fit:cover;
+        }
+    
+        .iconf{
+          padding:5px;
+        }
+        
+        .user {
+          display: flex;
+          align-items: center;
+        }
+        .user img {
+          width:29px;
+          height:29px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+  </style>
+</head>
+
+<body>
+  
+          <!--header-->
+  <header>
+        
+      <div class="logo">
+        <a href="Vip.html"><img src="/web/logo.png" alt="instagram"></a>
+      </div>
+      
+      <div class="iconh">
+        
+      <a href="#"><img src="heart.webp" alt="heart"></a>
+      
+     <a href="#"><img src="message.webp" alt="Reels"></a>
+      </div>
+      
+  </header>
+  
+              <!--story-->
+        
+  <div class="stry">
+    
+    <div class="story">
+      <div class="ring">
+    <img src="ajnan.jpg" alt="story">
+      </div>
+    <span>your story</span>
+    </div>
+  
+    <div class="story">
+     <div class="ring"> 
     <img src="g1.jpg" alt="story">
     </div>
     <span>ishita</span>
